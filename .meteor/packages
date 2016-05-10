@@ -26,6 +26,7 @@ spiderable
 fastclick
 raix:handlebar-helpers
 aldeed:collection2
+aldeed:simple-schema
 aldeed:autoform
 accounts-ui
 accounts-password
