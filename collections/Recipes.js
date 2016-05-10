@@ -36,7 +36,7 @@ RecipeShema = new SimpleSchema({
 		autoform: {
 			type: "hidden"
 		}
-	}
+	},
 	author: {
 		type: String,
 		label: "Author",
