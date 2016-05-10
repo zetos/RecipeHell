@@ -7,6 +7,16 @@ Recipes.allow({
 	}
 });
 
+Ingredient = new SimpleSchema({
+	name: {
+		type: String
+	},
+	amount: {
+		type: String
+	}
+});
+
+
 RecipeShema = new SimpleSchema({
 	name: {
 		type: String,
@@ -16,6 +26,17 @@ RecipeShema = new SimpleSchema({
 		type: String,
 		label: "Description"
 	},
+	ingredients: {
+		type: [Ingredient]
+	},
+	inMenu: {
+		type: Boolean,
+		defaultValue: false,
+		optional: true,
+		autoform: {
+			type: "hidden"
+		}
+	}
 	author: {
 		type: String,
 		label: "Author",
