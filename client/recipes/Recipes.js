@@ -2,6 +2,7 @@
 Template.Recipes.onCreated(function() {
 	var self = this;
 	self.autorun(function() {
+		//get all recipes from this user (publish.js)
 		self.subscribe('recipes');
 	});
 });
