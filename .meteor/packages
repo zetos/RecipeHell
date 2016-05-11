@@ -35,5 +35,6 @@ zimme:active-route
 gwendall:auth-client-callbacks # used for login redirects
 datariot:ganalytics # google analytics
 check
+session
 
 meteortoys:allthings

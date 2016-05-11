@@ -64,13 +64,3 @@ RecipeShema = new SimpleSchema({
 
 Recipes.attachSchema(RecipeShema);
 
-Meteor.methods({
-	toggleMenuItem: function(id, currentState) {
-		Recipes.update(id, {
-			$set: {
-				inMenu: !currentState
-			}
-		});
-	}
-
-});
