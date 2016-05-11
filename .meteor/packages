@@ -32,7 +32,7 @@ accounts-ui
 accounts-password
 matb33:bootstrap-glyphicons
 zimme:active-route
-gwendall:auth-client-callbacks
+gwendall:auth-client-callbacks # used for login redirects
 datariot:ganalytics # google analytics
 check
 
