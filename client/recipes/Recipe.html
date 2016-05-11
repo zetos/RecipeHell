@@ -1,5 +1,6 @@
 <template name="Recipe">
-	<article class="recipe">
+	<article class="recipe {{#if inMenu}}in-menu{{/if}}">
+	<!-- check if recipe is in Menu and add class to hide/show buttons -->
 		<h3>{{name}}</h3>
 		<!-- <p>{{desc}}</p> -->
 		<p>
